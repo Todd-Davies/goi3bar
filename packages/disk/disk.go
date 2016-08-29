@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	freeFormat = "%v: %v free"
+	freeFormat = "%v: %v"
 )
 
 type DiskUsageItem struct {

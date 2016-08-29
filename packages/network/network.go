@@ -14,9 +14,10 @@ const Identifier = "network"
 
 const (
 	notConnected = "Not connected"
-	ethFormat    = "Connected: %v (%vMb/s)"
+	ethFormat    = "↑↓ %v (%vMb/s)"
 	ipAddrRxStr  = "inet\\s+((\\d{1,3}\\.){3}\\d{1,3})"
-	isUpRxStr    = "state\\s+UP"
+	// Matches UP and UNKNOWN to be compatible with usb
+	isUpRxStr    = "state\\s+(UP|UNKNOWN)"
 )
 
 var (
@@ -93,7 +94,7 @@ func (d *BasicNetworkDevice) Update() error {
 	}
 
 	// TODO: Bring crushing reality upon our users of their network speed
-	d.speed = 1000000
+	d.speed = 1
 
 	return nil
 }
