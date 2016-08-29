@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/denbeigh2000/goi3bar/util"
+	"github.com/ToddDavies/goi3bar/util"
 )
 
 // A Generator generates content to put on an i3bar. Other functions will call

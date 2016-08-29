@@ -1,8 +1,8 @@
 package network
 
 import (
-	i3 "github.com/denbeigh2000/goi3bar"
-	"github.com/denbeigh2000/goi3bar/config"
+	i3 "github.com/ToddDavies/goi3bar"
+	"github.com/ToddDavies/goi3bar/config"
 
 	"encoding/json"
 	"fmt"

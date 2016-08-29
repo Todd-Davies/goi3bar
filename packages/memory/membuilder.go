@@ -1,8 +1,8 @@
 package memory
 
 import (
-	. "github.com/denbeigh2000/goi3bar"
-	"github.com/denbeigh2000/goi3bar/config"
+	. "github.com/ToddDavies/goi3bar"
+	"github.com/ToddDavies/goi3bar/config"
 
 	"time"
 )

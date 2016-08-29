@@ -1,7 +1,7 @@
 package config
 
 import (
-	. "github.com/denbeigh2000/goi3bar"
+	. "github.com/ToddDavies/goi3bar"
 
 	"encoding/json"
 	"fmt"

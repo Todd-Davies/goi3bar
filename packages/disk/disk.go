@@ -1,7 +1,7 @@
 package disk
 
 import (
-	i3 "github.com/denbeigh2000/goi3bar"
+	i3 "github.com/ToddDavies/goi3bar"
 
 	"github.com/pivotal-golang/bytefmt"
 

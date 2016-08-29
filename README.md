@@ -1,6 +1,6 @@
 ## goi3bar
 
-[![GoDoc](https://godoc.org/github.com/denbeigh2000/goi3bar?status.svg)](http://godoc.org/github.com/denbeigh2000/goi3bar)
+[![GoDoc](https://godoc.org/github.com/ToddDavies/goi3bar?status.svg)](http://godoc.org/github.com/ToddDavies/goi3bar)
 
 Finally, a configurable, lightweight and easily extensible replacement for i3status.
 
@@ -31,6 +31,16 @@ Either generate a binary with `go build`, or run `go install` in the root dir
 and add `$GOPATH/bin` to your `$PATH`.
 
 Arch Linux users can install the aur package `goi3bar-git`
+
+Ubuntu users; first update Go:
+
+```
+sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
+sudo apt-get update
+sudo apt-get install golang
+```
+
+Then run `go install ./...`.
 
 ### Usage
 

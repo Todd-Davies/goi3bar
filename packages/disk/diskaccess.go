@@ -1,8 +1,8 @@
 package disk
 
 import (
-	i3 "github.com/denbeigh2000/goi3bar"
-	"github.com/denbeigh2000/goi3bar/util"
+	i3 "github.com/ToddDavies/goi3bar"
+	"github.com/ToddDavies/goi3bar/util"
 
 	psDisk "github.com/shirou/gopsutil/disk"
 

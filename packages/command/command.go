@@ -3,7 +3,7 @@ package command
 import (
 	"bytes"
 	"fmt"
-	i3 "github.com/denbeigh2000/goi3bar"
+	i3 "github.com/ToddDavies/goi3bar"
 	"log"
 	"os/exec"
 	"strings"
