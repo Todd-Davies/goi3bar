@@ -95,9 +95,9 @@
             "package": "clock",
             "name": "mucTime",
             "options": {
-                "format": "Munich: %a %d-%b-%y %I:%M:%S",
+                "format": "London: %a %d-%b-%y %I:%M:%S",
                 "color": "#FFFFFF",
-                "location": "Europe/Berlin"
+                "location": "Europe/London"
             }
         }
     ],
